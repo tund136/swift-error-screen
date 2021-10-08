@@ -18,6 +18,7 @@
 		AD9DCE3E2710790A00CED5AE /* SomethingWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3D2710790A00CED5AE /* SomethingWrong.swift */; };
 		AD9DCE412710796800CED5AE /* ErrorFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE402710796800CED5AE /* ErrorFood.swift */; };
 		AD9DCE4427107AD400CED5AE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4327107AD400CED5AE /* Error.swift */; };
+		AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4627107B4F00CED5AE /* ErrorScreen404.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		AD9DCE3D2710790A00CED5AE /* SomethingWrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomethingWrong.swift; sourceTree = "<group>"; };
 		AD9DCE402710796800CED5AE /* ErrorFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorFood.swift; sourceTree = "<group>"; };
 		AD9DCE4327107AD400CED5AE /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		AD9DCE4627107B4F00CED5AE /* ErrorScreen404.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorScreen404.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,13 +86,14 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD9DCE4227107AC300CED5AE /* 07_Error */,
+				AD9DCE4527107B3900CED5AE /* 08_Error_404 */,
 				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
 				AD9DCE3327105DD700CED5AE /* 02_404_Error */,
 				AD9DCE36271077C200CED5AE /* 03_Something_Went_Wrong */,
 				AD9DCE392710782D00CED5AE /* 04_File_Not_Found */,
 				AD9DCE3C271078F300CED5AE /* 05_Something_Went_Wrong */,
 				AD9DCE3F2710794400CED5AE /* 06_Error_Food */,
+				AD9DCE4227107AC300CED5AE /* 07_Error */,
 				AD9DCE192710582200CED5AE /* ContentView.swift */,
 			);
 			path = Views;
@@ -150,6 +153,14 @@
 				AD9DCE4327107AD400CED5AE /* Error.swift */,
 			);
 			path = 07_Error;
+			sourceTree = "<group>";
+		};
+		AD9DCE4527107B3900CED5AE /* 08_Error_404 */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE4627107B4F00CED5AE /* ErrorScreen404.swift */,
+			);
+			path = 08_Error_404;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
+				AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */,
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */,
 				AD9DCE38271077DC00CED5AE /* SomethingWentWrong.swift in Sources */,
