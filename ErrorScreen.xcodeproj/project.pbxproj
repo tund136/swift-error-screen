@@ -16,6 +16,7 @@
 		AD9DCE38271077DC00CED5AE /* SomethingWentWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE37271077DC00CED5AE /* SomethingWentWrong.swift */; };
 		AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3A2710784900CED5AE /* FileNotFound.swift */; };
 		AD9DCE3E2710790A00CED5AE /* SomethingWrong.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3D2710790A00CED5AE /* SomethingWrong.swift */; };
+		AD9DCE412710796800CED5AE /* ErrorFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE402710796800CED5AE /* ErrorFood.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		AD9DCE37271077DC00CED5AE /* SomethingWentWrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomethingWentWrong.swift; sourceTree = "<group>"; };
 		AD9DCE3A2710784900CED5AE /* FileNotFound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileNotFound.swift; sourceTree = "<group>"; };
 		AD9DCE3D2710790A00CED5AE /* SomethingWrong.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SomethingWrong.swift; sourceTree = "<group>"; };
+		AD9DCE402710796800CED5AE /* ErrorFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorFood.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,11 +82,12 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD9DCE3C271078F300CED5AE /* 05_Something_Went_Wrong */,
+				AD9DCE3F2710794400CED5AE /* 06_Error */,
 				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
 				AD9DCE3327105DD700CED5AE /* 02_404_Error */,
 				AD9DCE36271077C200CED5AE /* 03_Something_Went_Wrong */,
 				AD9DCE392710782D00CED5AE /* 04_File_Not_Found */,
+				AD9DCE3C271078F300CED5AE /* 05_Something_Went_Wrong */,
 				AD9DCE192710582200CED5AE /* ContentView.swift */,
 			);
 			path = Views;
@@ -128,6 +131,14 @@
 				AD9DCE3D2710790A00CED5AE /* SomethingWrong.swift */,
 			);
 			path = 05_Something_Went_Wrong;
+			sourceTree = "<group>";
+		};
+		AD9DCE3F2710794400CED5AE /* 06_Error */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE402710796800CED5AE /* ErrorFood.swift */,
+			);
+			path = 06_Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,6 +215,7 @@
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */,
 				AD9DCE38271077DC00CED5AE /* SomethingWentWrong.swift in Sources */,
+				AD9DCE412710796800CED5AE /* ErrorFood.swift in Sources */,
 				AD9DCE182710582200CED5AE /* ErrorScreenApp.swift in Sources */,
 				AD9DCE3E2710790A00CED5AE /* SomethingWrong.swift in Sources */,
 				AD9DCE3527105DFA00CED5AE /* Error404.swift in Sources */,
