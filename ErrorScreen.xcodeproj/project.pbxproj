@@ -29,6 +29,7 @@
 		AD9DCE602710851400CED5AE /* TimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE5F2710851400CED5AE /* TimeError.swift */; };
 		AD9DCE632710856700CED5AE /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE622710856700CED5AE /* LocationError.swift */; };
 		AD9DCE66271085B600CED5AE /* RouterOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE65271085B500CED5AE /* RouterOffline.swift */; };
+		AD9DCE6C2710865D00CED5AE /* FIleNotFound2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE6B2710865D00CED5AE /* FIleNotFound2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +56,7 @@
 		AD9DCE5F2710851400CED5AE /* TimeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeError.swift; sourceTree = "<group>"; };
 		AD9DCE622710856700CED5AE /* LocationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
 		AD9DCE65271085B500CED5AE /* RouterOffline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterOffline.swift; sourceTree = "<group>"; };
+		AD9DCE6B2710865D00CED5AE /* FIleNotFound2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIleNotFound2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE6A2710865000CED5AE /* 19_File_Not_Found */,
 				AD9DCE64271085A500CED5AE /* 18_Router_Offline */,
 				AD9DCE612710855C00CED5AE /* 17_Location_Error */,
 				AD9DCE5E2710850900CED5AE /* 16_Time_Error */,
@@ -273,6 +276,14 @@
 			path = 18_Router_Offline;
 			sourceTree = "<group>";
 		};
+		AD9DCE6A2710865000CED5AE /* 19_File_Not_Found */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE6B2710865D00CED5AE /* FIleNotFound2.swift */,
+			);
+			path = 19_File_Not_Found;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -353,6 +364,7 @@
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE632710856700CED5AE /* LocationError.swift in Sources */,
 				AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */,
+				AD9DCE6C2710865D00CED5AE /* FIleNotFound2.swift in Sources */,
 				AD9DCE4E27107CFC00CED5AE /* ConnectionLost.swift in Sources */,
 				AD9DCE38271077DC00CED5AE /* SomethingWentWrong.swift in Sources */,
 				AD9DCE512710827600CED5AE /* BrokenLink.swift in Sources */,
