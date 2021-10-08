@@ -26,6 +26,7 @@
 		AD9DCE572710833B00CED5AE /* StorageNotEnough.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE562710833B00CED5AE /* StorageNotEnough.swift */; };
 		AD9DCE5A271083B500CED5AE /* NoSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE59271083B500CED5AE /* NoSearchResult.swift */; };
 		AD9DCE5D271084C900CED5AE /* PaymentFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE5C271084C900CED5AE /* PaymentFailed.swift */; };
+		AD9DCE602710851400CED5AE /* TimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE5F2710851400CED5AE /* TimeError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		AD9DCE562710833B00CED5AE /* StorageNotEnough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageNotEnough.swift; sourceTree = "<group>"; };
 		AD9DCE59271083B500CED5AE /* NoSearchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoSearchResult.swift; sourceTree = "<group>"; };
 		AD9DCE5C271084C900CED5AE /* PaymentFailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentFailed.swift; sourceTree = "<group>"; };
+		AD9DCE5F2710851400CED5AE /* TimeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE5E2710850900CED5AE /* 16_Time_Error */,
 				AD9DCE5B271084B500CED5AE /* 15_Payment_Error */,
 				AD9DCE58271083A900CED5AE /* 14_No_Search_Result */,
 				AD9DCE552710832C00CED5AE /* 13_Storage_Not_Enough */,
@@ -240,6 +243,14 @@
 			path = 15_Payment_Error;
 			sourceTree = "<group>";
 		};
+		AD9DCE5E2710850900CED5AE /* 16_Time_Error */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE5F2710851400CED5AE /* TimeError.swift */,
+			);
+			path = 16_Time_Error;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +332,7 @@
 				AD9DCE4E27107CFC00CED5AE /* ConnectionLost.swift in Sources */,
 				AD9DCE38271077DC00CED5AE /* SomethingWentWrong.swift in Sources */,
 				AD9DCE512710827600CED5AE /* BrokenLink.swift in Sources */,
+				AD9DCE602710851400CED5AE /* TimeError.swift in Sources */,
 				AD9DCE412710796800CED5AE /* ErrorFood.swift in Sources */,
 				AD9DCE182710582200CED5AE /* ErrorScreenApp.swift in Sources */,
 				AD9DCE3E2710790A00CED5AE /* SomethingWrong.swift in Sources */,
