@@ -28,6 +28,7 @@
 		AD9DCE5D271084C900CED5AE /* PaymentFailed.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE5C271084C900CED5AE /* PaymentFailed.swift */; };
 		AD9DCE602710851400CED5AE /* TimeError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE5F2710851400CED5AE /* TimeError.swift */; };
 		AD9DCE632710856700CED5AE /* LocationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE622710856700CED5AE /* LocationError.swift */; };
+		AD9DCE66271085B600CED5AE /* RouterOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE65271085B500CED5AE /* RouterOffline.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		AD9DCE5C271084C900CED5AE /* PaymentFailed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentFailed.swift; sourceTree = "<group>"; };
 		AD9DCE5F2710851400CED5AE /* TimeError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeError.swift; sourceTree = "<group>"; };
 		AD9DCE622710856700CED5AE /* LocationError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationError.swift; sourceTree = "<group>"; };
+		AD9DCE65271085B500CED5AE /* RouterOffline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterOffline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE64271085A500CED5AE /* 18_Router_Offline */,
 				AD9DCE612710855C00CED5AE /* 17_Location_Error */,
 				AD9DCE5E2710850900CED5AE /* 16_Time_Error */,
 				AD9DCE5B271084B500CED5AE /* 15_Payment_Error */,
@@ -262,6 +265,14 @@
 			path = 17_Location_Error;
 			sourceTree = "<group>";
 		};
+		AD9DCE64271085A500CED5AE /* 18_Router_Offline */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE65271085B500CED5AE /* RouterOffline.swift */,
+			);
+			path = 18_Router_Offline;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +349,7 @@
 				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
 				AD9DCE4B27107BD500CED5AE /* LocationAccess.swift in Sources */,
 				AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */,
+				AD9DCE66271085B600CED5AE /* RouterOffline.swift in Sources */,
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE632710856700CED5AE /* LocationError.swift in Sources */,
 				AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */,
