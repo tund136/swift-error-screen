@@ -23,6 +23,7 @@
 		AD9DCE4E27107CFC00CED5AE /* ConnectionLost.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4D27107CFC00CED5AE /* ConnectionLost.swift */; };
 		AD9DCE512710827600CED5AE /* BrokenLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE502710827600CED5AE /* BrokenLink.swift */; };
 		AD9DCE54271082DC00CED5AE /* MissingArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE53271082DC00CED5AE /* MissingArticle.swift */; };
+		AD9DCE572710833B00CED5AE /* StorageNotEnough.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE562710833B00CED5AE /* StorageNotEnough.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		AD9DCE4D27107CFC00CED5AE /* ConnectionLost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionLost.swift; sourceTree = "<group>"; };
 		AD9DCE502710827600CED5AE /* BrokenLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrokenLink.swift; sourceTree = "<group>"; };
 		AD9DCE53271082DC00CED5AE /* MissingArticle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissingArticle.swift; sourceTree = "<group>"; };
+		AD9DCE562710833B00CED5AE /* StorageNotEnough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageNotEnough.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE552710832C00CED5AE /* 13_Storage_Not_Enough */,
 				AD9DCE52271082D000CED5AE /* 12_Missing_Article */,
 				AD9DCE4F2710826A00CED5AE /* 11_Broken_Link */,
 				AD9DCE4C27107C5200CED5AE /* 10_Connection_Lost */,
@@ -207,6 +210,14 @@
 			path = 12_Missing_Article;
 			sourceTree = "<group>";
 		};
+		AD9DCE552710832C00CED5AE /* 13_Storage_Not_Enough */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE562710833B00CED5AE /* StorageNotEnough.swift */,
+			);
+			path = 13_Storage_Not_Enough;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,6 +288,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9DCE572710833B00CED5AE /* StorageNotEnough.swift in Sources */,
 				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
 				AD9DCE4B27107BD500CED5AE /* LocationAccess.swift in Sources */,
 				AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */,
