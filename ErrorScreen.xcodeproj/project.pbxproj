@@ -19,6 +19,7 @@
 		AD9DCE412710796800CED5AE /* ErrorFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE402710796800CED5AE /* ErrorFood.swift */; };
 		AD9DCE4427107AD400CED5AE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4327107AD400CED5AE /* Error.swift */; };
 		AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4627107B4F00CED5AE /* ErrorScreen404.swift */; };
+		AD9DCE4B27107BD500CED5AE /* LocationAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE4A27107BD500CED5AE /* LocationAccess.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		AD9DCE402710796800CED5AE /* ErrorFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorFood.swift; sourceTree = "<group>"; };
 		AD9DCE4327107AD400CED5AE /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		AD9DCE4627107B4F00CED5AE /* ErrorScreen404.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorScreen404.swift; sourceTree = "<group>"; };
+		AD9DCE4A27107BD500CED5AE /* LocationAccess.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationAccess.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE4927107BBC00CED5AE /* 09_Location_Error */,
 				AD9DCE4527107B3900CED5AE /* 08_Error_404 */,
 				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
 				AD9DCE3327105DD700CED5AE /* 02_404_Error */,
@@ -163,6 +166,14 @@
 			path = 08_Error_404;
 			sourceTree = "<group>";
 		};
+		AD9DCE4927107BBC00CED5AE /* 09_Location_Error */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE4A27107BD500CED5AE /* LocationAccess.swift */,
+			);
+			path = 09_Location_Error;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -234,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
+				AD9DCE4B27107BD500CED5AE /* LocationAccess.swift in Sources */,
 				AD9DCE4727107B4F00CED5AE /* ErrorScreen404.swift in Sources */,
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE3B2710784900CED5AE /* FileNotFound.swift in Sources */,
