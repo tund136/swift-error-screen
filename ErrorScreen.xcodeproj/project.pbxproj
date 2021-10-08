@@ -110,19 +110,7 @@
 		AD9DCE252710591A00CED5AE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AD9DCE6D271086D400CED5AE /* 20_No_Camera_Access */,
-				AD9DCE6A2710865000CED5AE /* 19_File_Not_Found */,
-				AD9DCE64271085A500CED5AE /* 18_Router_Offline */,
-				AD9DCE612710855C00CED5AE /* 17_Location_Error */,
-				AD9DCE5E2710850900CED5AE /* 16_Time_Error */,
-				AD9DCE5B271084B500CED5AE /* 15_Payment_Error */,
-				AD9DCE58271083A900CED5AE /* 14_No_Search_Result */,
-				AD9DCE552710832C00CED5AE /* 13_Storage_Not_Enough */,
-				AD9DCE52271082D000CED5AE /* 12_Missing_Article */,
-				AD9DCE4F2710826A00CED5AE /* 11_Broken_Link */,
-				AD9DCE4C27107C5200CED5AE /* 10_Connection_Lost */,
-				AD9DCE4927107BBC00CED5AE /* 09_Location_Error */,
-				AD9DCE4527107B3900CED5AE /* 08_Error_404 */,
+				AD9DCE192710582200CED5AE /* ContentView.swift */,
 				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
 				AD9DCE3327105DD700CED5AE /* 02_404_Error */,
 				AD9DCE36271077C200CED5AE /* 03_Something_Went_Wrong */,
@@ -130,7 +118,19 @@
 				AD9DCE3C271078F300CED5AE /* 05_Something_Went_Wrong */,
 				AD9DCE3F2710794400CED5AE /* 06_Error_Food */,
 				AD9DCE4227107AC300CED5AE /* 07_Error */,
-				AD9DCE192710582200CED5AE /* ContentView.swift */,
+				AD9DCE4527107B3900CED5AE /* 08_Error_404 */,
+				AD9DCE4927107BBC00CED5AE /* 09_Location_Error */,
+				AD9DCE4C27107C5200CED5AE /* 10_Connection_Lost */,
+				AD9DCE4F2710826A00CED5AE /* 11_Broken_Link */,
+				AD9DCE52271082D000CED5AE /* 12_Missing_Article */,
+				AD9DCE552710832C00CED5AE /* 13_Storage_Not_Enough */,
+				AD9DCE58271083A900CED5AE /* 14_No_Search_Result */,
+				AD9DCE5B271084B500CED5AE /* 15_Payment_Error */,
+				AD9DCE5E2710850900CED5AE /* 16_Time_Error */,
+				AD9DCE612710855C00CED5AE /* 17_Location_Error */,
+				AD9DCE64271085A500CED5AE /* 18_Router_Offline */,
+				AD9DCE6A2710865000CED5AE /* 19_File_Not_Found */,
+				AD9DCE6D271086D400CED5AE /* 20_No_Camera_Access */,
 			);
 			path = Views;
 			sourceTree = "<group>";
