@@ -11,6 +11,7 @@
 		AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE192710582200CED5AE /* ContentView.swift */; };
 		AD9DCE1C2710582600CED5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCE1B2710582600CED5AE /* Assets.xcassets */; };
 		AD9DCE1F2710582600CED5AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCE1E2710582600CED5AE /* Preview Assets.xcassets */; };
+		AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3127105B1C00CED5AE /* NoConnection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AD9DCE192710582200CED5AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD9DCE1B2710582600CED5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9DCE1E2710582600CED5AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD9DCE3127105B1C00CED5AE /* NoConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,8 @@
 		AD9DCE162710582200CED5AE /* ErrorScreen */ = {
 			isa = PBXGroup;
 			children = (
+				AD9DCE252710591A00CED5AE /* Views */,
 				AD9DCE172710582200CED5AE /* ErrorScreenApp.swift */,
-				AD9DCE192710582200CED5AE /* ContentView.swift */,
 				AD9DCE1B2710582600CED5AE /* Assets.xcassets */,
 				AD9DCE1D2710582600CED5AE /* Preview Content */,
 			);
@@ -65,6 +67,23 @@
 				AD9DCE1E2710582600CED5AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD9DCE252710591A00CED5AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE192710582200CED5AE /* ContentView.swift */,
+				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AD9DCE3027105B0300CED5AE /* 01_No_Connection */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE3127105B1C00CED5AE /* NoConnection.swift */,
+			);
+			path = 01_No_Connection;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE182710582200CED5AE /* ErrorScreenApp.swift in Sources */,
 			);
