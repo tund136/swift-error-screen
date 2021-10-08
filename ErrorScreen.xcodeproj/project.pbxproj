@@ -12,6 +12,7 @@
 		AD9DCE1C2710582600CED5AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCE1B2710582600CED5AE /* Assets.xcassets */; };
 		AD9DCE1F2710582600CED5AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD9DCE1E2710582600CED5AE /* Preview Assets.xcassets */; };
 		AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3127105B1C00CED5AE /* NoConnection.swift */; };
+		AD9DCE3527105DFA00CED5AE /* Error404.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD9DCE3427105DFA00CED5AE /* Error404.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		AD9DCE1B2710582600CED5AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD9DCE1E2710582600CED5AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD9DCE3127105B1C00CED5AE /* NoConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoConnection.swift; sourceTree = "<group>"; };
+		AD9DCE3427105DFA00CED5AE /* Error404.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error404.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				AD9DCE192710582200CED5AE /* ContentView.swift */,
 				AD9DCE3027105B0300CED5AE /* 01_No_Connection */,
+				AD9DCE3327105DD700CED5AE /* 02_404_Error */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -84,6 +87,14 @@
 				AD9DCE3127105B1C00CED5AE /* NoConnection.swift */,
 			);
 			path = 01_No_Connection;
+			sourceTree = "<group>";
+		};
+		AD9DCE3327105DD700CED5AE /* 02_404_Error */ = {
+			isa = PBXGroup;
+			children = (
+				AD9DCE3427105DFA00CED5AE /* Error404.swift */,
+			);
+			path = 02_404_Error;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -159,6 +170,7 @@
 				AD9DCE3227105B1C00CED5AE /* NoConnection.swift in Sources */,
 				AD9DCE1A2710582200CED5AE /* ContentView.swift in Sources */,
 				AD9DCE182710582200CED5AE /* ErrorScreenApp.swift in Sources */,
+				AD9DCE3527105DFA00CED5AE /* Error404.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
